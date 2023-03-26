@@ -1,0 +1,79 @@
+body {
+      margin: 0;
+      padding: 0;
+}
+
+.registration-form {
+      height: 100vh;
+      background: linear-gradient(to right, #27dbe9, #e3e67d);
+      padding: 200px 0;
+}
+
+.container {
+      width: 1140px;
+      margin: 0px auto;
+}
+
+.form-box {
+      width: 40%;
+      background: white;
+      padding: 55px;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px 15px #black;
+      margin: 0px auto;
+
+}
+
+.form-box h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+}
+
+form {
+      padding: 20px;
+
+}
+
+form input {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      margin-bottom: 24px;
+      border: 0.5px solid #ccc
+}
+
+.check {
+      display: inline-block;
+      width: auto;
+}
+
+.button {
+      background: linear-gradient(to right, #27dbe9, #5EACDB);
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 10px;
+      width: 80%;
+      margin: 0px auto;
+      margin-top: 40px;
+}
+
+.button:hover {
+      background: linear-gradient(to left, #27dbe9, #e3e67d);
+      font-size: 19px;
+      transition: 3s;
+      cursor: pointer;
+}
+
+.focus {
+      border: none;
+      outline: none;
+      border-bottom: 0.5px solid #ccc;
+}
+
+.focus:focus {
+
+      border-radius: 10px;
+      border: 1px solid #ccc;
+}
